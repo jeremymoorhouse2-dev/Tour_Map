@@ -1,8 +1,8 @@
 mapboxgl.accessToken = "pk.eyJ1Ijoiam1vb3Job3VzZSIsImEiOiJjbW13YWVoenYydXQ1MnJwbGVlemRxdzdtIn0.6TPYi4u6gPKJmjUrXj4Orw";
 
 const canadaBounds = [
-  [-141.5, 41.5], // southwest [lng, lat]
-  [-52.0, 83.5]   // northeast [lng, lat]
+  [-141.0, 41.0],   // southwest
+  [-52.0, 70.5]     // northeast
 ];
 
 const map = new mapboxgl.Map({

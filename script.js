@@ -7,7 +7,7 @@ const canadaBounds = [
 
 const map = new mapboxgl.Map({
   container: "map",
-  style: "mapbox://styles/mapbox/light-v11",
+  style: "mapbox://styles/jmoorhouse/cmnymfb57001101scek64hfrl",
   bounds: canadaBounds,
   fitBoundsOptions: {
     padding: 30

@@ -1,4 +1,4 @@
-mapboxgl.accessToken = "YOUR_MAPBOX_ACCESS_TOKEN";
+mapboxgl.accessToken = "pk.eyJ1Ijoiam1vb3Job3VzZSIsImEiOiJjbW13YWVoenYydXQ1MnJwbGVlemRxdzdtIn0.6TPYi4u6gPKJmjUrXj4Orw";
 
 const canadaBounds = [
   [-141.5, 41.5], // southwest [lng, lat]

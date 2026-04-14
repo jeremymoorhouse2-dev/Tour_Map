@@ -55,3 +55,25 @@ html, body {
   font-size: 13px;
   line-height: 1.5;
 }
+.popup-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 10px 0;
+  border-radius: 6px;
+}
+
+.popup-links {
+  margin: 10px 0 0 0;
+  font-size: 13px;
+}
+
+.popup-links a {
+  color: #D52B1E;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.popup-links a:hover {
+  text-decoration: underline;
+}

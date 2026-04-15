@@ -17,8 +17,38 @@
       <h1>Tour Map</h1>
       <p>Visited and planned sites across Canada.</p>
     </div>
+
     <div id="map"></div>
+
+    <div id="route-legend" class="map-legend">
+      <div class="legend-title">Legend</div>
+
+      <div class="legend-item">
+        <span class="legend-line legend-line-completed"></span>
+        <span>Completed route</span>
+      </div>
+
+      <div class="legend-item">
+        <span class="legend-line legend-line-planned"></span>
+        <span>Planned route</span>
+      </div>
+
+      <div class="legend-item">
+        <span class="legend-dot legend-dot-visited"></span>
+        <span>Visited site</span>
+      </div>
+
+      <div class="legend-item">
+        <span class="legend-dot legend-dot-planned"></span>
+        <span>Planned site</span>
+      </div>
+    </div>
   </div>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
 
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js"></script>
   <script src="script.js"></script>

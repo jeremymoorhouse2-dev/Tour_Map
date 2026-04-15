@@ -9,6 +9,7 @@ html, body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .map-header {
@@ -55,6 +56,7 @@ html, body {
   font-size: 13px;
   line-height: 1.5;
 }
+
 .popup-image {
   width: 100%;
   height: auto;
@@ -76,4 +78,66 @@ html, body {
 
 .popup-links a:hover {
   text-decoration: underline;
+}
+
+.map-legend {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.96);
+  padding: 12px 14px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  font-size: 13px;
+  color: #2B2B2B;
+  min-width: 165px;
+}
+
+.legend-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.legend-item:last-child {
+  margin-bottom: 0;
+}
+
+.legend-line {
+  display: inline-block;
+  width: 28px;
+  height: 0;
+  margin-right: 10px;
+  flex: 0 0 auto;
+}
+
+.legend-line-completed {
+  border-top: 2px solid #D52B1E;
+}
+
+.legend-line-planned {
+  border-top: 2px dashed #2B2B2B;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1.5px solid #ffffff;
+  flex: 0 0 auto;
+}
+
+.legend-dot-visited {
+  background: #D52B1E;
+}
+
+.legend-dot-planned {
+  background: #8C8C8C;
 }

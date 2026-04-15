@@ -53,7 +53,7 @@ map.on("load", () => {
       "line-cap": "round"
     },
     paint: {
-      "line-color": "#D52B1E",
+      "line-color": "#2B2B2B",
       "line-width": 2,
       "line-dasharray": [3, 2]
     }

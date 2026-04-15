@@ -23,6 +23,42 @@ map.on("load", () => {
     data: "data/tour-points.geojson"
   });
 
+  map.addSource("tour-route", {
+    type: "geojson",
+    data: "https://raw.githubusercontent.com/jeremymoorhouse2-dev/Tour_Map/main/data/tour-route.geojson"
+  });
+
+  map.addLayer({
+    id: "route-completed",
+    type: "line",
+    source: "tour-route",
+    filter: ["==", ["get", "status"], "completed"],
+    layout: {
+      "line-join": "round",
+      "line-cap": "round"
+    },
+    paint: {
+      "line-color": "#D52B1E",
+      "line-width": 2
+    }
+  });
+
+  map.addLayer({
+    id: "route-planned",
+    type: "line",
+    source: "tour-route",
+    filter: ["==", ["get", "status"], "planned"],
+    layout: {
+      "line-join": "round",
+      "line-cap": "round"
+    },
+    paint: {
+      "line-color": "#D52B1E",
+      "line-width": 2,
+      "line-dasharray": [3, 2]
+    }
+  });
+
   map.addLayer({
     id: "visited-points",
     type: "circle",
@@ -59,43 +95,43 @@ map.on("load", () => {
       const props = feature.properties || {};
       const coordinates = feature.geometry.coordinates.slice();
 
-const name = props.name || "Untitled site";
-const province = props.province || "";
-const status = props.status || "";
-const type = props.type || "";
-const date = props.date || "";
-const summary = props.summary || "";
-const storyUrl = props.story_url || "";
-const photoUrl = props.photo_url || "";
-const coverImageUrl = props.cover_image_url || "";
+      const name = props.name || "Untitled site";
+      const province = props.province || "";
+      const status = props.status || "";
+      const type = props.type || "";
+      const date = props.date || "";
+      const summary = props.summary || "";
+      const storyUrl = props.story_url || "";
+      const photoUrl = props.photo_url || "";
+      const coverImageUrl = props.cover_image_url || "";
 
-const imageHtml = coverImageUrl
-  ? `<img src="${coverImageUrl}" alt="${name}" class="popup-image">`
-  : "";
+      const imageHtml = coverImageUrl
+        ? `<img src="${coverImageUrl}" alt="${name}" class="popup-image">`
+        : "";
 
-const links = [];
-if (storyUrl) {
-  links.push(`<a href="${storyUrl}" target="_blank" rel="noopener noreferrer">Story</a>`);
-}
-if (photoUrl) {
-  links.push(`<a href="${photoUrl}" target="_blank" rel="noopener noreferrer">Photos</a>`);
-}
+      const links = [];
+      if (storyUrl) {
+        links.push(`<a href="${storyUrl}" target="_blank" rel="noopener noreferrer">Story</a>`);
+      }
+      if (photoUrl) {
+        links.push(`<a href="${photoUrl}" target="_blank" rel="noopener noreferrer">Photos</a>`);
+      }
 
-const linksHtml = links.length
-  ? `<p class="popup-links">${links.join(" · ")}</p>`
-  : "";
+      const linksHtml = links.length
+        ? `<p class="popup-links">${links.join(" · ")}</p>`
+        : "";
 
-const html = `
-  <div>
-    ${imageHtml}
-    <h3 class="popup-title">${name}</h3>
-    <p class="popup-meta">
-      ${[province, status, type, date].filter(Boolean).join(" · ")}
-    </p>
-    <p class="popup-summary">${summary}</p>
-    ${linksHtml}
-  </div>
-`;
+      const html = `
+        <div>
+          ${imageHtml}
+          <h3 class="popup-title">${name}</h3>
+          <p class="popup-meta">
+            ${[province, status, type, date].filter(Boolean).join(" · ")}
+          </p>
+          <p class="popup-summary">${summary}</p>
+          ${linksHtml}
+        </div>
+      `;
 
       new mapboxgl.Popup({ offset: 12 })
         .setLngLat(coordinates)

@@ -25,6 +25,7 @@ function addCanadaReferenceLayers(map) {
     url: "mapbox://mapbox.mapbox-streets-v8"
   });
 
+  // Canada national border (dark charcoal)
   map.addLayer({
     id: "canada-country-border",
     type: "line",
@@ -46,6 +47,7 @@ function addCanadaReferenceLayers(map) {
     }
   });
 
+  // Canada province boundaries
   map.addLayer({
     id: "canada-province-boundaries",
     type: "line",
@@ -63,6 +65,7 @@ function addCanadaReferenceLayers(map) {
     }
   });
 
+  // Canada label
   map.addLayer({
     id: "canada-country-label",
     type: "symbol",
@@ -85,6 +88,7 @@ function addCanadaReferenceLayers(map) {
     }
   });
 
+  // Province labels
   map.addLayer({
     id: "canada-province-labels",
     type: "symbol",
@@ -107,6 +111,7 @@ function addCanadaReferenceLayers(map) {
     }
   });
 
+  // City labels (optional — remove if too busy)
   map.addLayer({
     id: "canada-city-labels",
     type: "symbol",
@@ -134,6 +139,7 @@ function addCanadaReferenceLayers(map) {
       "text-halo-width": 1
     }
   });
+}
 
 const canadaBounds = [
   [-141.0, 41.0],

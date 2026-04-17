@@ -1,5 +1,24 @@
 mapboxgl.accessToken = "pk.eyJ1Ijoiam1vb3Job3VzZSIsImEiOiJjbW13YWVoenYydXQ1MnJwbGVlemRxdzdtIn0.6TPYi4u6gPKJmjUrXj4Orw";
 
+function applyCanadaSetup(map) {
+  map.addSource("country-mask", {
+    type: "vector",
+    url: "mapbox://mapbox.country-boundaries-v1"
+  });
+
+  map.addLayer({
+    id: "country-mask-fill",
+    type: "fill",
+    source: "country-mask",
+    "source-layer": "country_boundaries",
+    filter: ["!=", ["get", "iso_3166_1"], "CA"],
+    paint: {
+      "fill-color": "#ffffff",
+      "fill-opacity": 0.5
+    }
+  });
+}
+
 const canadaBounds = [
   [-141.0, 41.0],   // southwest
   [-52.0, 70.5]     // northeast

@@ -135,41 +135,6 @@ function addCanadaReferenceLayers(map) {
     }
   });
 
-  map.addLayer({
-    id: "canada-highway-refs",
-    type: "symbol",
-    source: "mapbox-reference",
-    "source-layer": "road",
-    minzoom: 5.5,
-    filter: [
-      "all",
-      ["==", ["get", "iso_3166_1"], "CA"],
-      ["has", "ref"],
-      ["in", ["get", "class"], ["literal", ["motorway", "trunk", "primary"]]]
-    ],
-    layout: {
-      "symbol-placement": "line-center",
-      "text-field": ["get", "ref"],
-      "text-size": [
-        "interpolate",
-        ["linear"],
-        ["zoom"],
-        5.5, 10,
-        8, 12
-      ],
-      "text-font": ["DIN Pro Bold", "Arial Unicode MS Bold"],
-      "symbol-spacing": 300,
-      "text-rotation-alignment": "map",
-      "text-keep-upright": true
-    },
-    paint: {
-      "text-color": "#2B2B2B",
-      "text-halo-color": "#ffffff",
-      "text-halo-width": 1.5
-    }
-  });
-}
-
 const canadaBounds = [
   [-141.0, 41.0],
   [-52.0, 70.5]

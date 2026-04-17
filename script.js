@@ -11,7 +11,7 @@ function applyCanadaSetup(map) {
     type: "fill",
     source: "country-mask",
     "source-layer": "country_boundaries",
-    filter: ["!=", ["get", "iso_3166_1"], "CA"],
+    filter: ["!=", ["get", "iso_3166_1_alpha_3"], "CAN"],
     paint: {
       "fill-color": "#ffffff",
       "fill-opacity": 0.5
@@ -20,8 +20,8 @@ function applyCanadaSetup(map) {
 }
 
 const canadaBounds = [
-  [-141.0, 41.0],   // southwest
-  [-52.0, 70.5]     // northeast
+  [-141.0, 41.0],
+  [-52.0, 70.5]
 ];
 
 const map = new mapboxgl.Map({
@@ -37,6 +37,8 @@ const map = new mapboxgl.Map({
 map.addControl(new mapboxgl.NavigationControl(), "top-right");
 
 map.on("load", () => {
+  applyCanadaSetup(map);
+
   map.addSource("tour-points", {
     type: "geojson",
     data: "data/tour-points.geojson"

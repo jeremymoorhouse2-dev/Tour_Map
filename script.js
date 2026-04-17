@@ -1,31 +1,10 @@
-mapboxgl.accessToken = "pk.eyJ1Ijoiam1vb3Job3VzZSIsImEiOiJjbW13YWVoenYydXQ1MnJwbGVlemRxdzdtIn0.6TPYi4u6gPKJmjUrXj4Orw";
-
-function applyCanadaSetup(map) {
-  map.addSource("country-mask", {
-    type: "vector",
-    url: "mapbox://mapbox.country-boundaries-v1"
-  });
-
-  map.addLayer({
-    id: "country-mask-fill",
-    type: "fill",
-    source: "country-mask",
-    "source-layer": "country_boundaries",
-    filter: ["!=", ["get", "iso_3166_1_alpha_3"], "CAN"],
-    paint: {
-      "fill-color": "#ffffff",
-      "fill-opacity": 0.5
-    }
-  });
-}
-
 function addCanadaReferenceLayers(map) {
   map.addSource("mapbox-reference", {
     type: "vector",
     url: "mapbox://mapbox.mapbox-streets-v8"
   });
 
-  // Canada national border
+  // Dark Canada national border
   map.addLayer({
     id: "canada-country-border",
     type: "line",
@@ -33,13 +12,16 @@ function addCanadaReferenceLayers(map) {
     "source-layer": "admin",
     filter: [
       "all",
-      ["==", ["get", "iso_3166_1"], "CA"],
-      ["==", ["get", "admin_level"], 0]
+      ["==", ["get", "admin_level"], 0],
+      ["any",
+        ["==", ["get", "iso_3166_1"], "CA"],
+        ["==", ["get", "iso_3166_1"], "CA-US"]
+      ]
     ],
     paint: {
-      "line-color": "#8C8C8C",
-      "line-width": 1.5,
-      "line-opacity": 0.8
+      "line-color": "#2B2B2B",
+      "line-width": 1.8,
+      "line-opacity": 0.95
     }
   });
 
@@ -135,156 +117,40 @@ function addCanadaReferenceLayers(map) {
       "text-halo-width": 1
     }
   });
+
+  // Canada-only highway route numbers
+  // Uses road ref values from the road layer.
+  map.addLayer({
+    id: "canada-highway-refs",
+    type: "symbol",
+    source: "mapbox-reference",
+    "source-layer": "road",
+    minzoom: 5.5,
+    filter: [
+      "all",
+      ["==", ["get", "iso_3166_1"], "CA"],
+      ["has", "ref"],
+      ["in", ["get", "class"], ["literal", ["motorway", "trunk", "primary"]]]
+    ],
+    layout: {
+      "symbol-placement": "line-center",
+      "text-field": ["get", "ref"],
+      "text-size": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        5.5, 10,
+        8, 12
+      ],
+      "text-font": ["DIN Pro Bold", "Arial Unicode MS Bold"],
+      "symbol-spacing": 300,
+      "text-rotation-alignment": "map",
+      "text-keep-upright": true
+    },
+    paint: {
+      "text-color": "#2B2B2B",
+      "text-halo-color": "#ffffff",
+      "text-halo-width": 1.5
+    }
+  });
 }
-
-const canadaBounds = [
-  [-141.0, 41.0],
-  [-52.0, 70.5]
-];
-
-const map = new mapboxgl.Map({
-  container: "map",
-  style: "mapbox://styles/jmoorhouse/cmnymfb57001101scek64hfrl",
-  bounds: canadaBounds,
-  fitBoundsOptions: {
-    padding: 30
-  },
-  maxBounds: canadaBounds
-});
-
-map.addControl(new mapboxgl.NavigationControl(), "top-right");
-
-map.on("load", () => {
-  applyCanadaSetup(map);
-  addCanadaReferenceLayers(map);
-
-  map.addSource("tour-points", {
-    type: "geojson",
-    data: "data/tour-points.geojson"
-  });
-
-  map.addSource("tour-route", {
-    type: "geojson",
-    data: "https://raw.githubusercontent.com/jeremymoorhouse2-dev/Tour_Map/main/data/tour-route.geojson"
-  });
-
-  map.addLayer({
-    id: "route-completed",
-    type: "line",
-    source: "tour-route",
-    filter: ["==", ["get", "status"], "completed"],
-    layout: {
-      "line-join": "round",
-      "line-cap": "round"
-    },
-    paint: {
-      "line-color": "#D52B1E",
-      "line-width": 2
-    }
-  });
-
-  map.addLayer({
-    id: "route-planned",
-    type: "line",
-    source: "tour-route",
-    filter: ["==", ["get", "status"], "planned"],
-    layout: {
-      "line-join": "round",
-      "line-cap": "round"
-    },
-    paint: {
-      "line-color": "#2B2B2B",
-      "line-width": 2,
-      "line-dasharray": [3, 2]
-    }
-  });
-
-  map.addLayer({
-    id: "visited-points",
-    type: "circle",
-    source: "tour-points",
-    filter: ["==", ["get", "status"], "visited"],
-    paint: {
-      "circle-radius": 7,
-      "circle-color": "#D52B1E",
-      "circle-stroke-color": "#ffffff",
-      "circle-stroke-width": 1.5
-    }
-  });
-
-  map.addLayer({
-    id: "planned-points",
-    type: "circle",
-    source: "tour-points",
-    filter: ["==", ["get", "status"], "planned"],
-    paint: {
-      "circle-radius": 6,
-      "circle-color": "#8C8C8C",
-      "circle-stroke-color": "#ffffff",
-      "circle-stroke-width": 1.5
-    }
-  });
-
-  const popupLayers = ["visited-points", "planned-points"];
-
-  popupLayers.forEach((layerId) => {
-    map.on("click", layerId, (e) => {
-      const feature = e.features && e.features[0];
-      if (!feature) return;
-
-      const props = feature.properties || {};
-      const coordinates = feature.geometry.coordinates.slice();
-
-      const name = props.name || "Untitled site";
-      const province = props.province || "";
-      const status = props.status || "";
-      const type = props.type || "";
-      const date = props.date || "";
-      const summary = props.summary || "";
-      const storyUrl = props.story_url || "";
-      const photoUrl = props.photo_url || "";
-      const coverImageUrl = props.cover_image_url || "";
-
-      const imageHtml = coverImageUrl
-        ? `<img src="${coverImageUrl}" alt="${name}" class="popup-image">`
-        : "";
-
-      const links = [];
-      if (storyUrl) {
-        links.push(`<a href="${storyUrl}" target="_blank" rel="noopener noreferrer">Story</a>`);
-      }
-      if (photoUrl) {
-        links.push(`<a href="${photoUrl}" target="_blank" rel="noopener noreferrer">Photos</a>`);
-      }
-
-      const linksHtml = links.length
-        ? `<p class="popup-links">${links.join(" · ")}</p>`
-        : "";
-
-      const html = `
-        <div>
-          ${imageHtml}
-          <h3 class="popup-title">${name}</h3>
-          <p class="popup-meta">
-            ${[province, status, type, date].filter(Boolean).join(" · ")}
-          </p>
-          <p class="popup-summary">${summary}</p>
-          ${linksHtml}
-        </div>
-      `;
-
-      new mapboxgl.Popup({ offset: 12 })
-        .setLngLat(coordinates)
-        .setHTML(html)
-        .addTo(map);
-    });
-
-    map.on("mouseenter", layerId, () => {
-      map.getCanvas().style.cursor = "pointer";
-    });
-
-    map.on("mouseleave", layerId, () => {
-      map.getCanvas().style.cursor = "";
-    });
-  });
-});

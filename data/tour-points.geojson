@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1099,
+          49.2734
+        ]
+      },
+      "properties": {
+        "id": "1",
+        "name": "False Creek Neighbourhood Energy Utility",
+        "province": "BC",
+        "status": "visited",
+        "type": "site",
+        "date": "26-Apr",
+        "summary": "District energy system using sewer heat recovery to supply low-carbon heating to Vancouver buildings.",
+        "story_url": "https://cleanenergybuildout.ca/from-wastewater-to-warmth/",
+        "photo_url": "https://cleanenergybuildout/from-wastewater-to-warmth/",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/03/dsc04529-1-scaled-scaled-scaled-scaled-scaled.jpg",
+        "latitude": 49.2734,
+        "longitude": -123.1099
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.911,
+          49.2037
+        ]
+      },
+      "properties": {
+        "id": "2",
+        "name": "Consolidated Biofuels",
+        "province": "BC",
+        "status": "visited",
+        "type": "site",
+        "date": "26-Apr",
+        "summary": "Waste-based biodiesel production facility supplying low-carbon fuels from used cooking oil and other feedstocks.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": "",
+        "latitude": 49.2037,
+        "longitude": -122.911
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4938,
+          53.5461
+        ]
+      },
+      "properties": {
+        "id": "3",
+        "name": "Heidelberg Materials Edmonton CCUS Project",
+        "province": "AB",
+        "status": "planned",
+        "type": "site",
+        "date": "",
+        "summary": "Carbon capture project at a cement plant aiming to significantly reduce process emissions from cement production.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": "",
+        "latitude": 53.5461,
+        "longitude": -113.4938
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.285,
+          49.5125
+        ]
+      },
+      "properties": {
+        "id": "4",
+        "name": "Kalesnikoff Mass Timber Facility",
+        "province": "BC",
+        "status": "planned",
+        "type": "site",
+        "date": "",
+        "summary": "Advanced mass timber manufacturing facility producing cross-laminated timber for low-carbon construction.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": "",
+        "latitude": 49.5125,
+        "longitude": -117.285
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.947,
+          48.945
+        ]
+      },
+      "properties": {
+        "id": "5",
+        "name": "Braya Renewable Fuels Refinery",
+        "province": "NL",
+        "status": "planned",
+        "type": "site",
+        "date": "",
+        "summary": "Renewable fuels refinery converting conventional refining infrastructure to produce low-carbon fuels.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": "",
+        "latitude": 48.945,
+        "longitude": -57.947
+      }
+    }
+  ]
+}

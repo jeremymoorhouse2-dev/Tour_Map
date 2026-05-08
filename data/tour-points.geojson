@@ -33,9 +33,9 @@
         "type": "site",
         "date": "26-Apr",
         "summary": "Waste-based biodiesel production facility supplying low-carbon fuels from used cooking oil and other feedstocks.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -53,11 +53,11 @@
         "province": "AB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Carbon capture project at a cement plant aiming to significantly reduce process emissions from cement production.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -75,11 +75,11 @@
         "province": "NL",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Renewable fuels refinery converting conventional refining infrastructure to produce low-carbon fuels.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -99,9 +99,9 @@
         "type": "site",
         "date": "15-Apr",
         "summary": "All-electric mass timber amphitheatre at Vancouverâ€™s PNE, targeting zero-carbon cultural venue performance.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -121,9 +121,9 @@
         "type": "site",
         "date": "15-Apr",
         "summary": "Nine-storey affordable housing project combining mass timber construction with Passive House design.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -142,10 +142,10 @@
         "status": "visited",
         "type": "site",
         "date": "05-Apr",
-        "summary": "High-voltage transmission infrastructure connecting the lower-mainlaind to electricity generation. ",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "summary": "High-voltage transmission infrastructure connecting the lower-mainlaind to electricity generation.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -165,9 +165,9 @@
         "type": "site",
         "date": "15-Apr",
         "summary": "Ten-storey mass timber office building in Vancouver with an all-electric mechanical system and no on-site natural gas use.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -185,11 +185,11 @@
         "province": "BC",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Advanced mass timber manufacturing facility producing cross-laminated timber for low-carbon construction.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -207,11 +207,11 @@
         "province": "BC",
         "status": "visited",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Community-owned solar garden at Nelson Hydro's Bonnington site, enabling subscribers to receive bill credits from shared solar generation.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -229,11 +229,11 @@
         "province": "BC",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "335 MW hydroelectric expansion adding a second powerhouse downstream of Waneta Dam to generate clean power from existing river flows.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -251,11 +251,11 @@
         "province": "BC",
         "status": "visited",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "The Confluence is Castlegar’s Passive House-certified visitor and community hub, using mass timber and high-performance design to cut energy use and emissions",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -273,11 +273,11 @@
         "province": "AB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Renewable diesel facility at Imperial's Strathcona refinery supplying lower-emission fuels to western Canada and northern Alberta operations.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -295,11 +295,11 @@
         "province": "AB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "465 MW solar farm near Lomond in Vulcan County, among Canada'ss largest operating solar power projects.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -317,11 +317,11 @@
         "province": "AB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "University of Calgary high-performance redevelopment certified under Canada Green Building Council's Zero Carbon Building standard.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -339,11 +339,11 @@
         "province": "AB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Calgary-based battery energy storage systems company designing and integrating storage, power conversion and control systems.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -361,11 +361,11 @@
         "province": "AB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Solar project in Medicine Hat using contaminated former industrial lands for renewable electricity generation.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -383,11 +383,11 @@
         "province": "SK",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Regina canola crush facility designed to process up to one million tonnes per year for food and low-carbon fuel markets.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -405,11 +405,11 @@
         "province": "SK",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Saskatoon rare earth processing facility producing separated rare earth products and metals for magnets, EVs and clean technology supply chains.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -427,17 +427,17 @@
         "province": "MB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "1,388 km HVDC transmission line carrying renewable electricity from northern Manitoba to southern load centres.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.95,
-          53.82
+          -98.99807,
+          49.975033
         ]
       }
     },
@@ -449,11 +449,11 @@
         "province": "MB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Downtown Winnipeg office tower using passive design and efficiency systems to achieve LEED Platinum performance.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -471,11 +471,11 @@
         "province": "MB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "LEED Gold botanical conservatory at Assiniboine Park showcasing high-performance design and education around sustainability.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -493,11 +493,11 @@
         "province": "MB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Manitoba Hydro transmission expansion adding a new station and 230 kV line to strengthen reliability around Portage la Prairie.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -515,11 +515,11 @@
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Electric arc furnace transformation at Sault Ste. Marie steelworks, shifting production toward lower-emission electricity-based steelmaking.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -537,11 +537,11 @@
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Commercial-scale lithium-ion battery cell and module manufacturing facility in Windsor supporting North American EV supply chains.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -559,11 +559,11 @@
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "300 MW First Nation wind energy partnership on Henvey Inlet First Nation Reserve No. 2 lands.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -581,11 +581,11 @@
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Sudbury nickel operations and smelter complex with major atmospheric emissions reduction investments supporting cleaner critical minerals production.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -603,11 +603,11 @@
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "250 MW / 1,000 MWh battery energy storage facility in Haldimand County providing grid capacity and reliability services.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -625,11 +625,11 @@
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
-        "summary": "Red Rock and Lake Helen-area clean energy and industrial development opportunity linked to Indigenous economic development and biomass and biomass. ",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "date": "",
+        "summary": "Red Rock and Lake Helen-area clean energy and industrial development opportunity linked to Indigenous economic development and biomass and biomass.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -647,11 +647,11 @@
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Proposed biomass district heating project using locally sourced wood chips to reduce reliance on propane and electric heating in Chapleau.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -669,11 +669,11 @@
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Volkswagen PowerCo battery cell gigafactory project in St. Thomas, planned as a major North American EV battery manufacturing site.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -691,11 +691,11 @@
         "province": "QC",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Montreal-based electric powersports manufacturer producing electric snowmobiles and personal watercraft.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -709,15 +709,15 @@
       "type": "Feature",
       "properties": {
         "id": 33,
-        "name": "BÃ©cancour Industrial Park",
+        "name": "Becancour Industrial Park",
         "province": "QC",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Battery materials and clean industrial hub, including lithium conversion projects powered by Quebec's low-carbon electricity.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -731,59 +731,15 @@
       "type": "Feature",
       "properties": {
         "id": 34,
-        "name": "Arvida / Rio Tinto Aluminum Smelter",
+        "name": "LM Wind Power Gaspe Wind Turbine Blade Manufacturing Facility",
         "province": "QC",
         "status": "planned",
         "type": "site",
-        "date": null,
-        "summary": "Rio Tinto low-carbon aluminium complex in Saguenay using hydroelectricity and AP60 technology to expand cleaner aluminium production.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.178,
-          48.423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 35,
-        "name": "Apuiat Wind Project",
-        "province": "QC",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "200 MW wind farm jointly developed by Boralex and the Innu Nation",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.159,
-          50.213
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 36,
-        "name": "LM Wind Power GaspÃ© Wind Turbine Blade Manufacturing Facility",
-        "province": "QC",
-        "status": "planned",
-        "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Gaspe wind turbine blade manufacturing facility supplying large-scale wind markets and supporting Quebec's wind supply chain.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -796,16 +752,16 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 37,
+        "id": 35,
         "name": "Mi'kmaq First Nations partnership, Neweg Energy Project",
         "province": "NB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "25 MW Indigenous-partnered wind project near Penobsquis, adding renewable electricity to the New Brunswick grid.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -818,16 +774,16 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 38,
+        "id": 36,
         "name": "Point Lepreau Nuclear Generating Station",
         "province": "NB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "CANDU nuclear generating station at Point Lepreau providing firm, non-emitting electricity for New Brunswick.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -840,16 +796,16 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 39,
+        "id": 37,
         "name": "South Canoe Wind",
         "province": "NS",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "102 MW wind farm in Lunenburg County with 34 turbines supplying renewable electricity in Nova Scotia.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -862,66 +818,22 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 40,
+        "id": 38,
         "name": "Braya Renewable Fuels",
         "province": "NL",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Converted Come By Chance refinery producing up to 18,000 barrels per day of renewable diesel, with plans for sustainable aviation fuel.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -57.947,
           48.945
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 41,
-        "name": "Muskrat Falls",
-        "province": "NL",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "824 MW hydroelectric generating facility on the lower Churchill River supplying renewable electricity to Labrador and Newfoundland.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.78,
-          53.25
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 42,
-        "name": "Maritime Link and Labrador Island Link",
-        "province": "NL",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "Regional transmission infrastructure moving Muskrat Falls renewable electricity across Labrador, Newfoundland and onward to Nova Scotia.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.98,
-          47.5
         ]
       }
     }

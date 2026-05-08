@@ -41,9 +41,9 @@ function addCanadaReferenceLayers(map) {
       ]
     ],
     paint: {
-      "line-color": "#2B2B2B",
-      "line-width": 1.8,
-      "line-opacity": 0.95
+      "line-color": "#B8B8B8",
+      "line-width": 1,
+      "line-opacity": 0.6
     }
   });
 

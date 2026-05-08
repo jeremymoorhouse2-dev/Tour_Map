@@ -774,28 +774,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 36,
-        "name": "Point Lepreau Nuclear Generating Station",
-        "province": "NB",
-        "status": "planned",
-        "type": "site",
-        "date": "",
-        "summary": "CANDU nuclear generating station at Point Lepreau providing firm, non-emitting electricity for New Brunswick.",
-        "story_url": "",
-        "photo_url": "",
-        "cover_image_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.454,
-          45.069
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 37,
         "name": "South Canoe Wind",
         "province": "NS",

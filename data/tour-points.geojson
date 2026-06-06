@@ -1,9 +1,15 @@
 {
   "type": "FeatureCollection",
-  "name": "tour-points_06062026",
   "features": [
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1099,
+          49.2734
+        ]
+      },
       "properties": {
         "id": 1,
         "name": "False Creek Neighbourhood Energy Utility",
@@ -13,19 +19,19 @@
         "date": "26-Apr",
         "summary": "District energy system using sewer heat recovery to supply low-carbon heating to Vancouver buildings.",
         "story_url": "https://cleanenergybuildout.ca/from-wastewater-to-warmth/",
-        "photo_url": "https://cleanenergybuildout/from-wastewater-to-warmth/",
+        "photo_url": "Photo Database – Clean Energy Build-Out Project",
         "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/03/dsc04529-1-scaled-scaled-scaled-scaled-scaled.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.1099,
-          49.2734
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.911,
+          49.2037
+        ]
+      },
       "properties": {
         "id": 2,
         "name": "Consolidated Biofuels",
@@ -34,20 +40,20 @@
         "type": "site",
         "date": "26-Apr",
         "summary": "Waste-based biodiesel production facility supplying low-carbon fuels from used cooking oil and other feedstocks.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.911,
-          49.2037
-        ]
+        "story_url": "https://cleanenergybuildout.ca/consolidated-biofuels-sets-the-bar-for-biodiesel-in-canada/",
+        "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1348",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/05/dsc05810-scaled-2048x1365.jpg"
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4938,
+          53.5461
+        ]
+      },
       "properties": {
         "id": 3,
         "name": "Heidelberg Materials Edmonton CCUS Project",
@@ -59,17 +65,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.4938,
-          53.5461
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0428,
+          49.2825
+        ]
+      },
       "properties": {
         "id": 4,
         "name": "Freedom Mobile Arch",
@@ -77,21 +83,21 @@
         "status": "visited",
         "type": "site",
         "date": "15-Apr",
-        "summary": "All-electric mass timber amphitheatre at Vancouver’s PNE, targeting zero-carbon cultural venue performance.",
+        "summary": "All-electric mass timber amphitheatre at Vancouverâ€™s PNE, targeting zero-carbon cultural venue performance.",
         "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.0428,
-          49.2825
-        ]
+        "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1187",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc05537-1-scaled-scaled-scaled.jpg"
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0694,
+          49.2794
+        ]
+      },
       "properties": {
         "id": 5,
         "name": "Chief Leonard George Building",
@@ -101,19 +107,19 @@
         "date": "15-Apr",
         "summary": "Nine-storey affordable housing project combining mass timber construction with Passive House design.",
         "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.0694,
-          49.2794
-        ]
+        "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1215",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc05393-1-scaled-scaled-scaled.jpg"
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.848128,
+          49.330267
+        ]
+      },
       "properties": {
         "id": 6,
         "name": "L851 Transmission Line",
@@ -123,19 +129,19 @@
         "date": "05-Apr",
         "summary": "High-voltage transmission infrastructure connecting the lower-mainlaind to electricity generation. ",
         "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.848128,
-          49.330267
-        ]
+        "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1202",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc03951-scaled-scaled-scaled-scaled.jpg"
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0637,
+          49.2668
+        ]
+      },
       "properties": {
         "id": 7,
         "name": "The Hive",
@@ -145,19 +151,19 @@
         "date": "15-Apr",
         "summary": "Ten-storey mass timber office building in Vancouver with an all-electric mechanical system and no on-site natural gas use.",
         "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.0637,
-          49.2668
-        ]
+        "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1165",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc05492-1-scaled-scaled-scaled.jpg"
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.285,
+          49.5125
+        ]
+      },
       "properties": {
         "id": 8,
         "name": "Kalesnikoff Mass Timber Facility",
@@ -169,17 +175,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.285,
-          49.5125
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.471,
+          49.4929
+        ]
+      },
       "properties": {
         "id": 9,
         "name": "Nelson Community Solar Garden",
@@ -191,17 +197,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.471,
-          49.4929
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.624,
+          49.001
+        ]
+      },
       "properties": {
         "id": 10,
         "name": "Waneta Expansion Generating Station",
@@ -213,17 +219,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.624,
-          49.001
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.651496,
+          49.295734
+        ]
+      },
       "properties": {
         "id": 11,
         "name": "The Confluence",
@@ -235,17 +241,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.651496,
-          49.295734
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.096968,
+          51.071522
+        ]
+      },
       "properties": {
         "id": 12,
         "name": "Solar residence",
@@ -257,17 +263,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.096968,
-          51.071522
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.7,
+          50.3
+        ]
+      },
       "properties": {
         "id": 13,
         "name": "Travers Solar",
@@ -279,17 +285,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.7,
-          50.3
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1289,
+          51.0773
+        ]
+      },
       "properties": {
         "id": 14,
         "name": "Mackimmie Complex",
@@ -301,17 +307,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.1289,
-          51.0773
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.7929,
+          50.17255
+        ]
+      },
       "properties": {
         "id": 15,
         "name": "Blackspring Ridge Wind",
@@ -323,17 +329,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.7929,
-          50.17255
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7666,
+          50.4644
+        ]
+      },
       "properties": {
         "id": 16,
         "name": "Cargill Crush Facility",
@@ -345,17 +351,17 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.7666,
-          50.4644
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.627,
+          52.138
+        ]
+      },
       "properties": {
         "id": 17,
         "name": "Conservation House",
@@ -367,19 +373,41 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.627,
-          52.138
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.03179,
+          49.10015
+        ]
+      },
       "properties": {
         "id": 18,
+        "name": "Boundary Dam",
+        "province": "SK",
+        "status": "visited",
+        "type": "site",
+        "date": "26-May",
+        "summary": "Boundary Dam Unit 3 is a pioneering carbon capture project at SaskPower’s coal-fired power station near Estevan, capturing CO? for industrial use and storage while highlighting both the potential and complexity of decarbonizing existing fossil-fuel infrastructure.",
+        "story_url": null,
+        "photo_url": null,
+        "cover_image_url": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.53974,
+          50.018033
+        ]
+      },
+      "properties": {
+        "id": 19,
         "name": "Bekevar Wind",
         "province": "SK",
         "status": "visited",
@@ -389,19 +417,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.53974,
-          50.018033
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.99807,
+          49.975033
+        ]
+      },
       "properties": {
-        "id": 19,
+        "id": 20,
         "name": "Bipole III",
         "province": "MB",
         "status": "visited",
@@ -411,19 +439,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.99807,
-          49.975033
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2387,
+          49.8735
+        ]
+      },
       "properties": {
-        "id": 20,
+        "id": 21,
         "name": "The Leaf (Assiniboine Park)",
         "province": "MB",
         "status": "visited",
@@ -433,19 +461,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.2387,
-          49.8735
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.43,
+          49.97
+        ]
+      },
       "properties": {
-        "id": 21,
+        "id": 22,
         "name": "Portage Area Capacity Expansion",
         "province": "MB",
         "status": "visited",
@@ -455,19 +483,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.43,
-          49.97
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3616,
+          46.5232
+        ]
+      },
       "properties": {
-        "id": 22,
+        "id": 23,
         "name": "Algoma Steel",
         "province": "ON",
         "status": "planned",
@@ -477,19 +505,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.3616,
-          46.5232
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.887,
+          42.3155
+        ]
+      },
       "properties": {
-        "id": 23,
+        "id": 24,
         "name": "NextStar Battery Plant",
         "province": "ON",
         "status": "planned",
@@ -499,19 +527,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.887,
-          42.3155
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.555,
+          45.936
+        ]
+      },
       "properties": {
-        "id": 24,
+        "id": 25,
         "name": "Henvey Inlet",
         "province": "ON",
         "status": "planned",
@@ -521,19 +549,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.555,
-          45.936
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.599109,
+          43.518204
+        ]
+      },
       "properties": {
-        "id": 25,
+        "id": 26,
         "name": "Ash Grove Cement",
         "province": "ON",
         "status": "planned",
@@ -543,19 +571,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.599109,
-          43.518204
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93,
+          42.879
+        ]
+      },
       "properties": {
-        "id": 26,
+        "id": 27,
         "name": "Oneida Energy Storage Project",
         "province": "ON",
         "status": "planned",
@@ -565,19 +593,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.93,
-          42.879
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.19328,
+          42.912571
+        ]
+      },
       "properties": {
-        "id": 27,
+        "id": 28,
         "name": "Generate Upcycle",
         "province": "ON",
         "status": "planned",
@@ -587,19 +615,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.19328,
-          42.912571
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.403,
+          47.8405
+        ]
+      },
       "properties": {
-        "id": 28,
+        "id": 29,
         "name": "Chapleau Biomass Project",
         "province": "ON",
         "status": "planned",
@@ -609,19 +637,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.403,
-          47.8405
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.144,
+          42.777
+        ]
+      },
       "properties": {
-        "id": 29,
+        "id": 30,
         "name": "St. Thomas Battery Cell Gigafactory",
         "province": "ON",
         "status": "planned",
@@ -631,19 +659,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.144,
-          42.777
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6437,
+          45.4269
+        ]
+      },
       "properties": {
-        "id": 30,
+        "id": 31,
         "name": "Taiga Motors Advanced Manufacturing",
         "province": "QC",
         "status": "planned",
@@ -653,19 +681,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.6437,
-          45.4269
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.432,
+          46.336
+        ]
+      },
       "properties": {
-        "id": 31,
+        "id": 32,
         "name": "Becancour Industrial Park",
         "province": "QC",
         "status": "planned",
@@ -675,19 +703,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.432,
-          46.336
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.491,
+          48.819
+        ]
+      },
       "properties": {
-        "id": 32,
+        "id": 33,
         "name": "LM Wind Power Gaspe Wind Turbine Blade Manufacturing Facility",
         "province": "QC",
         "status": "planned",
@@ -697,19 +725,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.491,
-          48.819
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.465,
+          45.76
+        ]
+      },
       "properties": {
-        "id": 33,
+        "id": 34,
         "name": "Mi'kmaq First Nations partnership, Neweg Energy Project",
         "province": "NB",
         "status": "planned",
@@ -719,19 +747,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.465,
-          45.76
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.850861,
+          47.904219
+        ]
+      },
       "properties": {
-        "id": 34,
+        "id": 35,
         "name": "Greenergy fuel distribution",
         "province": "NB",
         "status": "planned",
@@ -741,19 +769,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.850861,
-          47.904219
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.454,
+          45.069
+        ]
+      },
       "properties": {
-        "id": 35,
+        "id": 36,
         "name": "Point Lepreau Nuclear Generating Station",
         "province": "NB",
         "status": "planned",
@@ -763,19 +791,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.454,
-          45.069
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.47,
+          44.73
+        ]
+      },
       "properties": {
-        "id": 36,
+        "id": 37,
         "name": "South Canoe Wind",
         "province": "NS",
         "status": "planned",
@@ -785,19 +813,19 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.47,
-          44.73
-        ]
       }
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.99338,
+          47.800929
+        ]
+      },
       "properties": {
-        "id": 37,
+        "id": 38,
         "name": "Braya Renewable Fuels Refinery",
         "province": "NL",
         "status": "planned",
@@ -807,13 +835,6 @@
         "story_url": null,
         "photo_url": null,
         "cover_image_url": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -53.99338,
-          47.800929
-        ]
       }
     }
   ]

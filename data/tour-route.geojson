@@ -88332,7 +88332,7 @@
     {
       "type": "Feature",
       "properties": {
-        "status": "completed",
+        "status": "planned",
         "from_order": 9,
         "to_order": 10,
         "from_name": "Winnipeg",

@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "id": 1,
+        "id": "1",
         "name": "False Creek Neighbourhood Energy Utility",
         "province": "BC",
         "status": "visited",
@@ -19,7 +19,7 @@
         "date": "26-Apr",
         "summary": "District energy system using sewer heat recovery to supply low-carbon heating to Vancouver buildings.",
         "story_url": "https://cleanenergybuildout.ca/from-wastewater-to-warmth/",
-        "photo_url": "Photo Database – Clean Energy Build-Out Project",
+        "photo_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc04492-scaled-scaled-scaled-scaled.jpg",
         "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/03/dsc04529-1-scaled-scaled-scaled-scaled-scaled.jpg"
       }
     },
@@ -33,7 +33,7 @@
         ]
       },
       "properties": {
-        "id": 2,
+        "id": "2",
         "name": "Consolidated Biofuels",
         "province": "BC",
         "status": "visited",
@@ -55,16 +55,16 @@
         ]
       },
       "properties": {
-        "id": 3,
+        "id": "3",
         "name": "Heidelberg Materials Edmonton CCUS Project",
         "province": "AB",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Carbon capture project at a cement plant aiming to significantly reduce process emissions from cement production.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -77,14 +77,14 @@
         ]
       },
       "properties": {
-        "id": 4,
+        "id": "4",
         "name": "Freedom Mobile Arch",
         "province": "BC",
         "status": "visited",
         "type": "site",
         "date": "15-Apr",
-        "summary": "All-electric mass timber amphitheatre at Vancouverâ€™s PNE, targeting zero-carbon cultural venue performance.",
-        "story_url": null,
+        "summary": "All-electric mass timber amphitheatre at Vancouver’s PNE, targeting zero-carbon cultural venue performance.",
+        "story_url": "",
         "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1187",
         "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc05537-1-scaled-scaled-scaled.jpg"
       }
@@ -99,14 +99,14 @@
         ]
       },
       "properties": {
-        "id": 5,
+        "id": "5",
         "name": "Chief Leonard George Building",
         "province": "BC",
         "status": "visited",
         "type": "site",
         "date": "15-Apr",
         "summary": "Nine-storey affordable housing project combining mass timber construction with Passive House design.",
-        "story_url": null,
+        "story_url": "",
         "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1215",
         "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc05393-1-scaled-scaled-scaled.jpg"
       }
@@ -121,14 +121,14 @@
         ]
       },
       "properties": {
-        "id": 6,
+        "id": "6",
         "name": "L851 Transmission Line",
         "province": "BC",
         "status": "visited",
         "type": "site",
         "date": "05-Apr",
         "summary": "High-voltage transmission infrastructure connecting the lower-mainlaind to electricity generation. ",
-        "story_url": null,
+        "story_url": "",
         "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1202",
         "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc03951-scaled-scaled-scaled-scaled.jpg"
       }
@@ -143,14 +143,14 @@
         ]
       },
       "properties": {
-        "id": 7,
+        "id": "7",
         "name": "The Hive",
         "province": "BC",
         "status": "visited",
         "type": "site",
         "date": "15-Apr",
         "summary": "Ten-storey mass timber office building in Vancouver with an all-electric mechanical system and no on-site natural gas use.",
-        "story_url": null,
+        "story_url": "",
         "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1165",
         "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc05492-1-scaled-scaled-scaled.jpg"
       }
@@ -165,16 +165,16 @@
         ]
       },
       "properties": {
-        "id": 8,
+        "id": "8",
         "name": "Kalesnikoff Mass Timber Facility",
         "province": "BC",
         "status": "visited",
         "type": "site",
         "date": "13-May",
         "summary": "Advanced mass timber manufacturing facility producing cross-laminated timber for low-carbon construction.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "https://cleanenergybuildout.ca/what-moving-up-the-value-chain-looks-like-at-kalesnikoff/",
+        "photo_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/06/dsc06266-scaled.jpg",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/06/dsc06255-2048x1365.jpg"
       }
     },
     {
@@ -187,16 +187,16 @@
         ]
       },
       "properties": {
-        "id": 9,
+        "id": "9",
         "name": "Nelson Community Solar Garden",
         "province": "BC",
         "status": "visited",
         "type": "site",
         "date": "12-May",
         "summary": "Community-owned solar garden at Nelson Hydro's Bonnington site, enabling subscribers to receive bill credits from shared solar generation.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -209,16 +209,16 @@
         ]
       },
       "properties": {
-        "id": 10,
+        "id": "10",
         "name": "Waneta Expansion Generating Station",
         "province": "BC",
         "status": "visited",
         "type": "site",
         "date": "10-May",
         "summary": "335 MW hydroelectric expansion adding a second powerhouse downstream of Waneta Dam to generate clean power from existing river flows.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -231,16 +231,16 @@
         ]
       },
       "properties": {
-        "id": 11,
+        "id": "11",
         "name": "The Confluence",
         "province": "BC",
         "status": "visited",
         "type": "site",
         "date": "14-May",
         "summary": "The Confluence is Castlegar’s Passive House-certified visitor and community hub, using mass timber and high-performance design to cut energy use and emissions",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -253,16 +253,16 @@
         ]
       },
       "properties": {
-        "id": 12,
+        "id": "12",
         "name": "Solar residence",
         "province": "AB",
         "status": "visited",
         "type": "site",
         "date": "17-May",
         "summary": "An all electric residential home with an 11 kW solar panel system, heat pump and EV",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -275,16 +275,16 @@
         ]
       },
       "properties": {
-        "id": 13,
+        "id": "13",
         "name": "Travers Solar",
         "province": "AB",
         "status": "visited",
         "type": "site",
         "date": "18-May",
         "summary": "465 MW solar farm near Lomond in Vulcan County, among Canada'ss largest operating solar power projects.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "https://cleanenergybuildout.ca/travers-solar-more-than-canadas-largest-solar-project/",
+        "photo_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/06/dsc06532-scaled.jpg",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/06/dsc06499-2048x1365.jpg"
       }
     },
     {
@@ -297,16 +297,16 @@
         ]
       },
       "properties": {
-        "id": 14,
+        "id": "14",
         "name": "Mackimmie Complex",
         "province": "AB",
         "status": "visited",
         "type": "site",
         "date": "17-May",
         "summary": "University of Calgary high-performance redevelopment certified under Canada Green Building Council's Zero Carbon Building standard.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/07/dsc06757-hdr-scaled.jpg",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/07/dsc06757-hdr-scaled.jpg"
       }
     },
     {
@@ -319,16 +319,38 @@
         ]
       },
       "properties": {
-        "id": 15,
+        "id": "15",
         "name": "Blackspring Ridge Wind",
         "province": "AB",
         "status": "visited",
         "type": "site",
         "date": "18-May",
         "summary": "Blackspring Ridge is a 300 MW wind project in Vulcan County, Alberta, completed in 2014 with 166 turbines, marking one of Western Canada’s early large-scale wind investments and helping establish southern Alberta as a major renewable power hub.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.055467,
+          51.045148
+        ]
+      },
+      "properties": {
+        "id": "16",
+        "name": "Calgary Public Library",
+        "province": "AB",
+        "status": "visited",
+        "type": "site",
+        "date": "21-May",
+        "summary": "Opened in 2018, Calgary’s LEED Gold-certified Central Library combines striking architecture with high-efficiency systems that reduce energy costs by about 26% and indoor water use by 30%.",
+        "story_url": "",
+        "photo_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/07/dsc06886-hdr-scaled.jpg",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/07/dsc06886-hdr-scaled.jpg"
       }
     },
     {
@@ -341,16 +363,16 @@
         ]
       },
       "properties": {
-        "id": 16,
+        "id": "17",
         "name": "Cargill Crush Facility",
         "province": "SK",
         "status": "visited",
         "type": "site",
         "date": "25-May",
         "summary": "Regina canola crush facility designed to process up to one million tonnes per year for food and low-carbon fuel markets.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -358,21 +380,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.627,
-          52.138
+          -104.655943,
+          50.487208
         ]
       },
       "properties": {
-        "id": 17,
+        "id": "18",
         "name": "Conservation House",
         "province": "SK",
         "status": "visited",
         "type": "site",
         "date": "26-May",
         "summary": "Saskatchewan Conservation House was a pioneering 1977 super-insulated, airtight solar home in Regina that helped shape the Passive House movement by demonstrating how radical energy efficiency could dramatically reduce heating needs in a cold prairie climate.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -385,16 +407,16 @@
         ]
       },
       "properties": {
-        "id": 18,
+        "id": "19",
         "name": "Boundary Dam",
         "province": "SK",
         "status": "visited",
         "type": "site",
         "date": "26-May",
         "summary": "Boundary Dam Unit 3 is a pioneering carbon capture project at SaskPower’s coal-fired power station near Estevan, capturing CO? for industrial use and storage while highlighting both the potential and complexity of decarbonizing existing fossil-fuel infrastructure.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -407,16 +429,16 @@
         ]
       },
       "properties": {
-        "id": 19,
+        "id": "20",
         "name": "Bekevar Wind",
         "province": "SK",
         "status": "visited",
         "type": "site",
         "date": "27-May",
         "summary": "Bekevar Wind is a 200 MW, 36-turbine wind facility north of Moose Mountain Provincial Park, opened in 2024 through a partnership involving Cowessess First Nation, and now ranks among Saskatchewan’s largest wind power projects.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -429,16 +451,16 @@
         ]
       },
       "properties": {
-        "id": 20,
+        "id": "21",
         "name": "Bipole III",
         "province": "MB",
         "status": "visited",
         "type": "site",
         "date": "02-Jun",
         "summary": "1,388 km HVDC transmission line carrying renewable electricity from northern Manitoba to southern load centres.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -451,16 +473,16 @@
         ]
       },
       "properties": {
-        "id": 21,
+        "id": "22",
         "name": "The Leaf (Assiniboine Park)",
         "province": "MB",
         "status": "visited",
         "type": "site",
         "date": "06-Jun",
         "summary": "LEED Gold botanical conservatory at Assiniboine Park showcasing high-performance design and education around sustainability.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -473,60 +495,16 @@
         ]
       },
       "properties": {
-        "id": 22,
+        "id": "23",
         "name": "Portage Area Capacity Expansion",
         "province": "MB",
         "status": "visited",
         "type": "site",
         "date": "02-Jun",
         "summary": "Manitoba Hydro transmission expansion adding a new station and 230 kV line to strengthen reliability around Portage la Prairie.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.3616,
-          46.5232
-        ]
-      },
-      "properties": {
-        "id": 23,
-        "name": "Algoma Steel",
-        "province": "ON",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "Electric arc furnace transformation at Sault Ste. Marie steelworks, shifting production toward lower-emission electricity-based steelmaking.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.887,
-          42.3155
-        ]
-      },
-      "properties": {
-        "id": 24,
-        "name": "NextStar Battery Plant",
-        "province": "ON",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "Commercial-scale lithium-ion battery cell and module manufacturing facility in Windsor supporting North American EV supply chains.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -539,16 +517,16 @@
         ]
       },
       "properties": {
-        "id": 25,
+        "id": "24",
         "name": "Henvey Inlet",
         "province": "ON",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "300 MW First Nation wind energy partnership on Henvey Inlet First Nation Reserve No. 2 lands.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -561,38 +539,16 @@
         ]
       },
       "properties": {
-        "id": 26,
+        "id": "25",
         "name": "Ash Grove Cement",
         "province": "ON",
-        "status": "planned",
+        "status": "visited",
         "type": "site",
-        "date": null,
+        "date": "18-Jun",
         "summary": "Ash Grove’s Mississauga cement plant is an established Ontario industrial site now pursuing lower-carbon cement production through alternative low-carbon fuels and a first-of-its-kind carbon capture and utilization project with Carbon Upcycling.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.93,
-          42.879
-        ]
-      },
-      "properties": {
-        "id": 27,
-        "name": "Oneida Energy Storage Project",
-        "province": "ON",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "250 MW / 1,000 MWh battery energy storage facility in Haldimand County providing grid capacity and reliability services.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -605,16 +561,16 @@
         ]
       },
       "properties": {
-        "id": 28,
+        "id": "26",
         "name": "Generate Upcycle",
         "province": "ON",
-        "status": "planned",
+        "status": "visited",
         "type": "site",
-        "date": null,
+        "date": "16-Jun",
         "summary": "Generate Upcycle’s London anaerobic digester and biogas plant turns municipal and commercial organic waste into renewable natural gas, electricity, heat and fertilizer, showing how food waste can become a local low-carbon energy resource.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -622,21 +578,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.403,
-          47.8405
+          -91.571335,
+          48.838412
         ]
       },
       "properties": {
-        "id": 29,
-        "name": "Chapleau Biomass Project",
+        "id": "27",
+        "name": "Atikokan ",
         "province": "ON",
-        "status": "planned",
+        "status": "visited",
         "type": "site",
-        "date": null,
-        "summary": "Proposed biomass district heating project using locally sourced wood chips to reduce reliance on propane and electric heating in Chapleau.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "date": "12-Jun",
+        "summary": "Commissioned as a coal-fired station in 1985, Ontario Power Generation’s 205-megawatt Atikokan Generating Station stopped burning coal in 2012 and returned to service in July 2014 following its conversion to wood pellets, becoming North America’s largest fully biomass-fuelled power plant.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -644,21 +600,109 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.144,
-          42.777
+          -79.366217,
+          43.644632
         ]
       },
       "properties": {
-        "id": 30,
-        "name": "St. Thomas Battery Cell Gigafactory",
+        "id": "28",
+        "name": "Liberlost Place",
         "province": "ON",
-        "status": "planned",
+        "status": "visited",
         "type": "site",
-        "date": null,
-        "summary": "Volkswagen PowerCo battery cell gigafactory project in St. Thomas, planned as a major North American EV battery manufacturing site.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "date": "21-Jun",
+        "summary": "Completed in 2025, George Brown Polytechnic’s 10-storey Limberlost Place demonstrates the potential of Canadian mass-timber construction, combining a largely timber structure with all-electric systems, passive ventilation and on-site solar generation to achieve Ontario’s first net-zero institutional building of its kind.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.133,
+          49.535613
+        ]
+      },
+      "properties": {
+        "id": "29",
+        "name": "Wassigan Transmission line project",
+        "province": "ON",
+        "status": "visited",
+        "type": "site",
+        "date": "13-Jun",
+        "summary": "The Waasigan Transmission Line is a roughly 360-kilometre, 230-kilovolt expansion of northwestern Ontario’s electricity grid, connecting Shuniah near Thunder Bay with Atikokan and Dryden to support growing mining, industrial and community electricity demand. Construction began in 2024, with the Shuniah–Atikokan section scheduled to enter service by the end of 2026 and the extension to Dryden by the end of 2027.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5358581,
+          45.01445
+        ]
+      },
+      "properties": {
+        "id": "30",
+        "name": "Rural Passive House",
+        "province": "QC",
+        "status": "visited",
+        "type": "site",
+        "date": "22-Jun",
+        "summary": "A family passive house built by a local architect, contractors and construction crews. ",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.21045,
+          45.59292
+        ]
+      },
+      "properties": {
+        "id": "31",
+        "name": "Appalaches-Maine Interconnection",
+        "province": "QC",
+        "status": "visited",
+        "type": "site",
+        "date": "26-Jun",
+        "summary": "Commissioned in January 2026, the Appalaches–Maine Interconnection is a 100-kilometre transmission line linking Hydro-Québec’s grid near Thetford Mines with Maine, forming the Canadian section of the New England Clean Energy Connect and enabling up to 1,200 megawatts of Québec hydropower to reach New England.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.083147,
+          46.337125
+        ]
+      },
+      "properties": {
+        "id": "32",
+        "name": "Mont Sainte-Marguerite S.E.C. wind farm",
+        "province": "QC",
+        "status": "visited",
+        "type": "site",
+        "date": "26-Jun",
+        "summary": "Commissioned in 2018, the 147-megawatt Mont Sainte-Marguerite wind farm comprises 46 turbines across Saint-Sylvestre, Saint-Séverin and Sacré-Cœur-de-Jésus, developed with local municipal participation and operated by Pattern Energy.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -671,16 +715,16 @@
         ]
       },
       "properties": {
-        "id": 31,
+        "id": "33",
         "name": "Taiga Motors Advanced Manufacturing",
         "province": "QC",
-        "status": "planned",
+        "status": "visited",
         "type": "site",
-        "date": null,
+        "date": "25-Jun",
         "summary": "Montreal-based electric powersports manufacturer producing electric snowmobiles and personal watercraft.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -693,60 +737,16 @@
         ]
       },
       "properties": {
-        "id": 32,
+        "id": "34",
         "name": "Becancour Industrial Park",
         "province": "QC",
         "status": "planned",
         "type": "site",
-        "date": null,
+        "date": "",
         "summary": "Battery materials and clean industrial hub, including lithium conversion projects powered by Quebec's low-carbon electricity.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.491,
-          48.819
-        ]
-      },
-      "properties": {
-        "id": 33,
-        "name": "LM Wind Power Gaspe Wind Turbine Blade Manufacturing Facility",
-        "province": "QC",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "Gaspe wind turbine blade manufacturing facility supplying large-scale wind markets and supporting Quebec's wind supply chain.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.465,
-          45.76
-        ]
-      },
-      "properties": {
-        "id": 34,
-        "name": "Mi'kmaq First Nations partnership, Neweg Energy Project",
-        "province": "NB",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "25 MW Indigenous-partnered wind project near Penobsquis, adding renewable electricity to the New Brunswick grid.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -759,16 +759,16 @@
         ]
       },
       "properties": {
-        "id": 35,
+        "id": "35",
         "name": "Greenergy fuel distribution",
         "province": "NB",
-        "status": "planned",
+        "status": "visited",
         "type": "site",
-        "date": null,
+        "date": "02-Jul",
         "summary": "Greenergy’s Belledune fuel distribution hub reactivates a liquid bulk tank farm and pipeline at the Port of Belledune, expanding regional capacity to import, store and distribute biofuels across Atlantic Canada.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -776,43 +776,153 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.454,
-          45.069
+          -64.288957,
+          44.898483
         ]
       },
       "properties": {
-        "id": 36,
-        "name": "Point Lepreau Nuclear Generating Station",
-        "province": "NB",
-        "status": "planned",
-        "type": "site",
-        "date": null,
-        "summary": "CANDU nuclear generating station at Point Lepreau providing firm, non-emitting electricity for New Brunswick.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.47,
-          44.73
-        ]
-      },
-      "properties": {
-        "id": 37,
-        "name": "South Canoe Wind",
+        "id": "36",
+        "name": "Benjamin Mills wind",
         "province": "NS",
-        "status": "planned",
+        "status": "visited",
         "type": "site",
-        "date": null,
-        "summary": "102 MW wind farm in Lunenburg County with 34 turbines supplying renewable electricity in Nova Scotia.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "date": "21-Jul",
+        "summary": "The 33.6-megawatt Benjamins Mill Wind Project in Hants County, Nova Scotia, entered commercial operation in December 2025, adding eight turbines through a partnership between Natural Forces and an agency representing the province’s 13 Mi’kmaq First Nations.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.381561,
+          46.489016
+        ]
+      },
+      "properties": {
+        "id": "37",
+        "name": "Anne of Green Gables Visitor Centre",
+        "province": "PEI",
+        "status": "visited",
+        "type": "site",
+        "date": "04-Jul",
+        "summary": "Opened in 2019, the LEED Gold-certified Green Gables Visitor Centre uses mass timber, solar power and passive design, earning national recognition through the 2022 Canadian Green Building Awards.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.3308,
+          44.44341
+        ]
+      },
+      "properties": {
+        "id": "38",
+        "name": "Waverly battery storage",
+        "province": "NS",
+        "status": "visited",
+        "type": "site",
+        "date": "05-Jul",
+        "summary": "Commissioned in 2026, Nova Scotia Power’s 50-megawatt, four-hour Waverley battery facility stores surplus renewable electricity, strengthens grid reliability and forms part of Atlantic Canada’s largest energy-storage project, developed with equity participation from Nova Scotia’s 13 Mi’kmaq communities.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.786366,
+          46.406782
+        ]
+      },
+      "properties": {
+        "id": "39",
+        "name": "Summerside",
+        "province": "PEI",
+        "status": "visited",
+        "type": "site",
+        "date": "04-Jul",
+        "summary": "Through its municipally owned utility, Summerside has integrated a 12-megawatt wind farm, 21.6 megawatts of solar, battery storage and AI-enabled grid management, allowing local renewables to supply more than 60% of the city’s electricity.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.720719,
+          45.119317
+        ]
+      },
+      "properties": {
+        "id": "40",
+        "name": "Courthouse Hills Farm Biogas",
+        "province": "NS",
+        "status": "visited",
+        "type": "site",
+        "date": "07-Jul",
+        "summary": "Operating since 2017, the 0.5-megawatt Courthouse Hill Energy biogas plant converts around 15,000 tonnes of agricultural and food waste each year into renewable electricity and nutrient-rich fertilizer.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.38095,
+          51.22019
+        ]
+      },
+      "properties": {
+        "id": "41",
+        "name": "Labrador - Island Transmisson Link",
+        "province": "NL",
+        "status": "visited",
+        "type": "site",
+        "date": "17-Jul",
+        "summary": "Commissioned in 2018, the 500-megawatt Maritime Link connects Newfoundland and Nova Scotia through two 170-kilometre subsea cables, enabling Labrador hydroelectricity to reach Nova Scotia and linking Newfoundland to the North American grid.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.875081,
+          49.57177
+        ]
+      },
+      "properties": {
+        "id": "42",
+        "name": "Gros Morne Visitor Centre",
+        "province": "NL",
+        "status": "visited",
+        "type": "site",
+        "date": "08-Jul",
+        "summary": "Reopened in 2024, the LEED Gold-certified Gros Morne Visitor Centre combines mass timber, reclaimed structural beams, alternative energy systems and EV charging in a low-carbon gateway to the national park.",
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     },
     {
@@ -825,16 +935,16 @@
         ]
       },
       "properties": {
-        "id": 38,
+        "id": "43",
         "name": "Braya Renewable Fuels Refinery",
         "province": "NL",
-        "status": "planned",
+        "status": "visited",
         "type": "site",
-        "date": null,
+        "date": "20-Jul",
         "summary": "Converted Come By Chance refinery producing up to 18,000 barrels per day of renewable diesel, with plans for sustainable aviation fuel.",
-        "story_url": null,
-        "photo_url": null,
-        "cover_image_url": null
+        "story_url": "",
+        "photo_url": "",
+        "cover_image_url": ""
       }
     }
   ]

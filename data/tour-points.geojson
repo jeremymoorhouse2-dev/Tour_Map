@@ -119,7 +119,7 @@
         "date": "05-Apr",
         "latitude": "49.330267",
         "longitude": "-122.848128",
-        "summary": "High-voltage transmission infrastructure connecting the lower-mainlaind to electricity generation.",
+        "summary": "High-voltage transmission infrastructure connecting the lower-mainlaind to electricity generation. ",
         "story_url": "",
         "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1202",
         "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/04/dsc03951-scaled-scaled-scaled-scaled.jpg",
@@ -620,9 +620,9 @@
         "latitude": "45.936",
         "longitude": "-80.555",
         "summary": "300 MW First Nation wind energy partnership on Henvey Inlet First Nation Reserve No. 2 lands.",
-        "story_url": "",
-        "photo_url": "",
-        "cover_image_url": "",
+        "story_url": "https://cleanenergybuildout.ca/building-wind-power-through-partnership-a-tour-of-canadas-largest-first-nation-wind-energy-partnership/",
+        "photo_url": "https://cleanenergybuildout.ca/Photo%20Database/#foogallery-532/i:1543",
+        "cover_image_url": "https://cleanenergybuildout.ca/wp-content/uploads/2026/09/dji_20260811002311_0235_d-scaled-scaled-scaled.jpg",
         "stop_order": 25
       }
     },
@@ -687,7 +687,7 @@
       },
       "properties": {
         "id": "28",
-        "name": "Atikokan",
+        "name": "Atikokan ",
         "province": "ON",
         "status": "visited",
         "type": "site",
@@ -769,7 +769,7 @@
         "date": "22-Jun",
         "latitude": "45.01445",
         "longitude": "-73.5358581",
-        "summary": "A family passive house built by a local architect, contractors and construction crews.",
+        "summary": "A family passive house built by a local architect, contractors and construction crews. ",
         "story_url": "",
         "photo_url": "",
         "cover_image_url": "",
@@ -956,8 +956,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.3308,
-          44.44341
+          -63.5505,
+          44.7437
         ]
       },
       "properties": {
@@ -967,8 +967,8 @@
         "status": "visited",
         "type": "site",
         "date": "05-Jul",
-        "latitude": "44.44341",
-        "longitude": "-63.3308",
+        "latitude": "44.7437",
+        "longitude": "-63.5505",
         "summary": "Commissioned in 2026, Nova Scotia Power’s 50-megawatt, four-hour Waverley battery facility stores surplus renewable electricity, strengthens grid reliability and forms part of Atlantic Canada’s largest energy-storage project, developed with equity participation from Nova Scotia’s 13 Mi’kmaq communities.",
         "story_url": "",
         "photo_url": "",
